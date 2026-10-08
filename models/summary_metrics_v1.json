@@ -1,0 +1,28 @@
+{
+  "version": "v1",
+  "rf": {
+    "f1_macro_test": 0.6999922946524889,
+    "auc_macro_test": 0.9144072861624757,
+    "best_params": {
+      "classifier__class_weight": {
+        "Fairly Valued": 0.4570957095709571,
+        "Overvalued": 2.638095238095238,
+        "Undervalued": 2.308333333333333
+      },
+      "classifier__max_depth": 15,
+      "classifier__min_samples_split": 2,
+      "classifier__n_estimators": 200
+    },
+    "cv_f1_macro": 0.6520418460612154
+  },
+  "gb": {
+    "f1_macro_test": 0.8084175084175084,
+    "auc_macro_test": 0.9106397314941699,
+    "best_params": {
+      "classifier__learning_rate": 0.05,
+      "classifier__max_depth": 3,
+      "classifier__n_estimators": 100
+    },
+    "cv_f1_macro": 0.6177795004786758
+  }
+}
